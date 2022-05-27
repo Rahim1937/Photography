@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Header Section Start */
+header{
+    background-image: url(img/parallax1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    opacity: .8;
+}
+header .all{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(221, 220, 220, 0.188);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+header .nav-bar ul li{
+    display: inline-block;
+    margin: 12px 3px;
+}
+header .nav-bar ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+header .nav-bar ul li a:hover{
+    background-color: rgb(166, 168, 170);
+}
+header .search{
+    margin-top: 13px;
+    margin-right: 10px;
+}
+header .search a{
+    color: black;
+    padding: 10px;
+}
+header .search a:hover{
+    background-color: rgb(195, 255, 0);
+}
+header .h1-tag{
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+header .h1-tag h1{
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 19px;
+    letter-spacing: 5px;
+}
+/* Header Section End */
+
+.width{
+    width: 70%;
+    margin: auto;
+}
+
+/* About Section Start */
+.about-text{
+    opacity: .7;
+}
+.about-text h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 100px 0 10px 0;
+} 
+.about-text .p1{
+    text-align: center;
+    font-style: italic;
+    margin: 20px;
+}
+.about-text .p2{
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+#about .img-text{
+    display: flex;
+    justify-content: space-between;
+}
+#about .img-tag i{
+    font-size: 13px;
+    text-align: center;
+    opacity: .7;
+    display: block;
+    margin: 10px 0 40px 0;
+}
+#about .img-tag img{
+    width: 400px;
+    border-radius: 1%;
+    opacity: .6;
+}
+#about .img-tag img:hover{
+    opacity: 1;
+}
+#about .text-tag{
+    margin-left: 50px;
+    opacity: .7;
+}
+#about .text-tag p{
+    line-height: 1.6;
+}
+/* About Section End */
+
+/* My Skills Section Start */
+.skills-section{
+    opacity: .7;
+    margin-bottom: 50px;
+}
+.skills-section h3{
+    text-align: center;
+    font-size: 18px;
+    margin: 60px 0 20px 0;
+}
+.skills-section i{
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin: 20px 0;
+}
+.skills-section .bottom{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(225, 225, 228);
+}
+.skills-section .top1{
+    width: 90%;
+    height: 35px;
+    background-color: black;
+}
+.skills-section .top1 p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.skills-section .top2{
+    width: 85%;
+    height: 35px;
+    background-color: black;
+}
+.skills-section .top2 p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.skills-section .top3{
+    width: 78%;
+    height: 35px;
+    background-color: black;
+}
+.skills-section .top3 p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+/* My Skills Section End */
+
+/* Portfolio Section Start */
+#portfolio{
+    margin: 40px 0;
+    opacity: .7;
+
+}
+#portfolio .project{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+}
+#portfolio .project p{
+   margin-bottom: 10px;
+}
+#portfolio .project h1{
+    font-weight: 100;
+}
+#portfolio .img-tag{
+    background-image: url(img/parallax2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+#portfolio .img-tag h1{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 220px
+}
+/* Portfolio Section End */
+
+/* Work Section Start */
+.my-work{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    opacity: .7;
+}
+.my-work h1{
+    font-size: 25px;
+    margin: 20px;
+}
+.my-work p{
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.my-work .img-tag{
+    display: flex;
+    justify-content: space-around;
+}
+.my-work .img-tag img{
+    max-width: 220px;
+    padding-top: 15px;
+}
+.my-work .p2{
+    font-size: 18px;
+    background-color: rgb(213, 214, 214);
+    display: inline-block;
+    margin: 40px;
+    padding: 5px 15px;
+}
+.my-work .p2:hover{
+    background-color: rgb(116, 117, 119);
+}
+/* Work Section End */
+
+/* Contact Section Start */
+.contact-img{
+    background-image: url(img/parallax3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    opacity: .7;
+    margin-bottom: 40px;
+}
+.contact-img h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-top: 180px;
+}
+
+#contact{
+    width: 70%;
+    margin: auto;
+}
+#contact .header-text{
+    padding-top: 40px;
+    text-align: center;
+    opacity: .7;
+}
+#contact .header-text h1{
+    font-weight: 500;
+    margin: 10px;
+}
+#contact .header-text p{
+    font-style: italic;
+    margin: 30px 0 50px 0;
+}
+#contact .img-text{
+    display: flex;
+    justify-content: space-around;
+}
+#contact .img-text img{
+    width: 200px;
+    border-radius: 2%;
+    margin-right: 20px;
+}
+#contact .text-tag p{
+    font-size: 20px;
+    opacity: .7;
+    margin: 10px;
+}
+#contact .text-tag i{
+    margin-right: 20px;
+    font-size: 22px;
+}
+#contact .text-tag .p2{
+    font-size: 15px;
+}
+#contact .text-tag input{
+    border: none;
+    border: 1px solid rgba(0,0,0,0.4);
+    font-size: 15px;
+    padding-left: 10px;
+    height: 45px;
+    margin: 5px 0 10px 10px;
+}
+#contact .text-tag .input1{
+    width: 40%;
+}
+#contact .text-tag .input2{
+    width: 40%;
+    margin: 0px;
+}
+#contact .text-tag .input3{
+    width: 83%;
+    position: relative;
+}
+#contact .text-tag button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: auto;
+    left: 63%;
+}
+#contact .text-tag button:hover{
+    background-color: rgb(216, 216, 216);
+    color: black;
+}
+#contact .text-tag button i{
+    font-size: 18px;
+    font-weight: 300
+}
+
+/* Contact Section End */
+
+/* Footer Section Star */
+footer{
+    margin-top: 200px;
+    background-color: black;
+    width: 100%;
+    height: 320px;
+    text-align: center;
+    opacity: .7;
+}
+footer:hover{
+    opacity: 1;
+}
+footer button{
+    padding: 10px;
+    margin-top: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+}
+footer button i{
+    padding-right: 15px;
+}
+footer .i-tag i{
+    font-size: 25px;
+    color: rgb(21, 215, 105);
+    margin: 20px 5px 0 0;
+    cursor: pointer;
+}
+footer .i-tag i:hover{
+    color: white;
+}
+footer p{
+    margin-top: 20px;
+    color: white;
+}
+/* Footer Section End */
+
+/* Media Section */
+@media (max-width: 1048px){
+    .width{
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px){
+    #about .img-text{
+        display: inline-block;
+    }
+    #about .img-tag{
+        text-align: center;
+    }
+    #about .text-tag{
+        margin-left: 10px;
+    }
+
+    .my-work{
+        width: 95%;
+    }
+    .my-work .img-tag img{
+        max-width: 150px;
+    }
+    #contact{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 400px){
+   
+    header .h1-tag h1{
+        font-size: 20px;
+    }
+
+    #about .img-tag img{
+        width: 300px;
+    }
+    header .nav-bar ul li{
+        margin: 12px 0;
+    }
+    header .nav-bar ul li  a{
+        padding: 3px;
+    }
+    header .search{
+        margin: 14px 0;
+    }
+
+    #portfolio .project{
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+    }
+    #portfolio .img-tag{
+        text-align: center;
+        width: 100%;
+    }
+
+    .my-work .img-tag{
+        display: block;
+    }
+    #contact .text-tag .input3{
+        width: 86%;
+    }
+   
+    #contact .text-tag button{
+        left: 39%;
+    }
+    #contact .img-text{
+        display: block;
+    }
+}
+
+/* Media Section */
